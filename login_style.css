@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.login{
+    margin: 150px auto;
+    padding: 20px;
+    width:300px;
+    height:350px;
+    box-shadow: 3px 3px 3px 3px rgba(158, 156, 156, 0.9);
+    border-radius: 8px;
+    
+}
+
+.input2{
+    font-family: 'Tiro Bangla', serif;
+    font-size:18px;
+    line-height: 1.2;
+    width: 100%;
+    height:40px;
+    display: block;
+    
+}
+.input2 {
+    position: relative;
+}
+.wrap-input2 {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+.input2{
+    font-family: 'Tiro Bangla', serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666666;
+    display: block;
+    width: 100%;
+    border:none;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px;
+}
+.input2 {
+    display: block;
+    position: absolute;
+    border-radius: 25px;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 0px 0px;
+   
+}
+
+.i{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    border-radius: 25px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 35px;
+    pointer-events: none;
+    color: #666666;
+   
+}
+.i{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom:30px;
+   
+}
+.btn {
+    font-family: 'Tiro Bangla', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    height: 45px;
+    border-radius: 25px;
+    background: #EE322E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    border:none;
+}
+
+
+a {
+    font-family: 'Tiro Bangla', serif;
+    font-size: 13px;
+    color: #999999;
+    text-align:center;
+    text-decoration:none;
+    margin-left:60px;
+    padding-top: 12px;
+    text-align: center;
+    
+}
+span {
+    font-family: 'Tiro Bangla', serif;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #EE322E;
+    
+}
+.error{
+    border:1px solid crimson;
+}
+
